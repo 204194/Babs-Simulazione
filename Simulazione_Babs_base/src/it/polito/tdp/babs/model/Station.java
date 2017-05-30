@@ -4,8 +4,8 @@ public class Station {
 
 	private int stationID;
 	private String name;
-	private double lat;
-	private double lon;
+	private double lat; //da nord verso sud -> decrescente
+	private double lon; 
 	private int dockCount;
 
 	public Station(int stationID, String name, double lat, double lon, int dockCount) {
